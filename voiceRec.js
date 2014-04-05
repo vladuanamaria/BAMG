@@ -273,7 +273,7 @@ window.onload = function (e) {
 		     case "settings":
 		     case "setari":
 			port.postMessage({
-				command="Settings"
+                command: "Settings"
 			});
 		        location.href = "https://www.facebook.com/settings";
 			is_settings=1;
@@ -282,7 +282,7 @@ window.onload = function (e) {
 		     case "security":
 		     case "securitate":
 			port.postMessage({
-				command="Security"
+                command: "Security"
 			});
 			if (is_settings==1){
 			location.href = "https://www.facebook.com/settings?tab=security"
