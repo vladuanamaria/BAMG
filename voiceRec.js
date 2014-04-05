@@ -270,7 +270,25 @@ window.onload = function (e) {
                         console.log($(document).find('a.uiMediaThumb._6i9.uiMediaThumbMedium').get(1));
                         $(document).find('a.uiMediaThumb._6i9.uiMediaThumbMedium').get(0).click();
                         break;
-
+		     case "settings":
+		     case "setari":
+			port.postMessage({
+				command="Settings"
+			});
+		        location.href = "https://www.facebook.com/settings";
+			is_settings=1;
+			is_news_feed=0;
+                        break;
+		     case "security":
+		     case "securitate":
+			port.postMessage({
+				command="Security"
+			});
+			if (is_settings==1){
+			location.href = "https://www.facebook.com/settings?tab=security"
+			}
+			is_news_feed=0;
+			break;
                     default:
                         port.postMessage({
                             command: "Sorry, I didn't get that."
