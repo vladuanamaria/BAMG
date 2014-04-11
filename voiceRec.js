@@ -285,7 +285,7 @@ window.onload = function (e) {
                 command: "Security"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=security"
+			location.href = "https://www.facebook.com/settings?tab=security";
 			}
 			is_news_feed=0;
 			break;
@@ -293,35 +293,35 @@ window.onload = function (e) {
 		command: "Privacy"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=privacy"
+			location.href = "https://www.facebook.com/settings?tab=privacy";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Timeline"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=timeline"
+			location.href = "https://www.facebook.com/settings?tab=timeline";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Blocking"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=blocking"
+			location.href = "https://www.facebook.com/settings?tab=blocking";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Notifications"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=notifications"
+			location.href = "https://www.facebook.com/settings?tab=notifications";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Mobile"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=mobile"
+			location.href = "https://www.facebook.com/settings?tab=mobile";
 			}
 			is_news_feed=0;
 			break;	
@@ -329,35 +329,35 @@ window.onload = function (e) {
 		command: "Followers"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=followers"
+			location.href = "https://www.facebook.com/settings?tab=followers";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Applications"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=applications"
+			location.href = "https://www.facebook.com/settings?tab=applications";
 			}
 			is_news_feed=0;
 			break;	
 		command: "Ads"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=ads"
+			location.href = "https://www.facebook.com/settings?tab=ads";
 			}
 			is_news_feed=0;
 			break;
 		command: "Payments"
 			});
 			if (is_settings==1){
-			location.href = "https://secure.facebook.com/settings?tab=payments"
+			location.href = "https://secure.facebook.com/settings?tab=payments";
 			}
 			is_news_feed=0;
 			break;
 		command: "Support"
 			});
 			if (is_settings==1){
-			location.href = "https://www.facebook.com/settings?tab=support"
+			location.href = "https://www.facebook.com/settings?tab=support";
 			}
 			is_news_feed=0;
 			break;
