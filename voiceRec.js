@@ -290,7 +290,7 @@ window.onload = function (e) {
 			is_news_feed=0;
 			break;
 
-		command: "Privacy"
+		/*command: "Privacy"
 			});
 			if (is_settings==1){
 			location.href = "https://www.facebook.com/settings?tab=privacy";
@@ -360,9 +360,7 @@ window.onload = function (e) {
 			location.href = "https://www.facebook.com/settings?tab=support";
 			}
 			is_news_feed=0;
-			break;
-	
-
+			break;*/
 
 		
                     default:
